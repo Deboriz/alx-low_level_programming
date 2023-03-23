@@ -16,3 +16,4 @@ typedef struct checker
 	void (*f)();
 } checker;
 #endif
+
