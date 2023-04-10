@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 	}
 
-	for (power = 1, summation = 0, len--; len >= 0; len--, powd *= 2)
+	for (powd = 1, summation = 0, len--; len >= 0; len--, powd *= 2)
 	{
 		if (b[len] == '1')
 			summation += powd;
