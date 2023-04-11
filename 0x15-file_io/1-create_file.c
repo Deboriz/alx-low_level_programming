@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * create_file : read/write access for user
- * @filename:  file  creating
- * @text_content: write to the file
+ * create_file : create a read/write access for user
+ * @filename:  A pointer to the name of the file to create.
+ * @text_content: A string to write to the file
  * Return: 1 on success, -1  write fails
  */
 int create_file(const char *filename, char *text_content)
